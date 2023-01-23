@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: white;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+
+}
+
+.title{
+    font-family: 'Karla', sans-serif;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+.wrapper {
+    margin: 3rem auto;
+    max-width: 500px;
+    background-color: #1F2937;
+    border-radius: 1em;
+    padding: 2em
+}
+
+.title-white {
+    margin-bottom: 0px;
+}
+
+.title-green {
+    margin-top: 0;
+    color: #4ADF86;
+    margin-bottom: 0px;
+}
+
+p { 
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8
+}
+
+.generate-container{
+    display: flex;
+    gap: 15px;
+}
+
+.length-button-container{
+    display: flex;
+    margin-bottom: 20px
+}
+
+.length-grp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    margin: 0;
+    
+}
+
+#length-minus{
+    width: 20px;
+    border-radius: 6px 0 0 6px;
+    background-color: #4ADF86; 
+}
+
+#length-value {
+    width: 45px;
+    background-color: #10B981;
+}
+
+#length-plus{
+    width: 20px;
+    border-radius: 0 6px 6px 0;
+    background-color: #4ADF86;
+}
+
+.btn {
+    background-color: #10B981;
+    color: white;
+    height: 52px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.true {
+    
+}
+
+.false {
+    background-color: #273549;
+}
+
+
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 1px solid #2F3E53;
+}
+
+.password-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pwd-field {
+    height: 40px;
+    width: 210px;
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #55F991;
+    text-align: center;
+}
+
+input:focus, button:focus, select:focus{
+        outline: none;
+    }

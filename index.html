@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 class="title-white title">Generate a</h1>
+            <h1 class="title-green title">random password</h1>
+            <p>Never use an insecure password again.</p>
+            <div class="generate-container">
+                <div class="length-button-container">
+                    <div id="length-minus" onclick="minusOne()" class="length-grp">-</div>
+                    <div id="length-value" class="length-grp">15</div>
+                    <div id="length-plus" onclick="addOne()" class="length-grp">+</div>
+                </div>
+                <button onclick="symbolFlip()" id="symbols-btn" class="btn true">Symbols ✔️</button>
+                <button onclick="numbersFlip()" id="numbers-btn" class="btn true">Numbers ✔️</button>
+            </div>
+                <button onclick="generatePassword()" class="btn">Generate password</button>
+            <hr></hr>
+            <div class="password-container">
+                <input type="text" onclick="firstCopy()" id="first-password" class="pwd-field" readonly></input>
+                <input type="text" onclick="secondCopy()" id="second-password" class="pwd-field" readonly></input>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
